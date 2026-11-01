@@ -3,8 +3,8 @@
 A Redis-compatible in-memory key-value server in Rust, built on Tokio. It speaks the RESP protocol, so the
 real `redis-cli` and Redis client libraries can talk to it.
 
-I built it while learning Rust, after building the same server in Java for the CodeCrafters
-"Build Your Own Redis" challenge, to compare the two languages on the same problem.
+I built it while learning Rust. I had started the CodeCrafters "Build Your Own Redis" challenge in Java
+and only got as far as answering `PING` for a single client; this is the full version.
 
 ## Features
 
